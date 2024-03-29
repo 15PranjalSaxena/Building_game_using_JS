@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+
+
+}
+
+h1{
+    background-color:#081b31;
+    color:White;
+    height:5rem;
+     line-height:5rem;  /* //jitni height utni dedo line-height verticlly aa jayega center mai// */
+}
+
+
+.choice{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+.choice:hover{
+    cursor:pointer;
+    background-color:#081b31;
+}
+
+img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.choices{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:5rem;
+
+}
